@@ -1,0 +1,200 @@
+b5. Interaction styles
+- 
+ + command line
+ + menu
+ + question and response
+ + forms
+ + natural language
+ + direct manipulation (icons, mouse...)
+ + virtual reality
+
+b6. Giao dien
+- human interface: phuc vu cho trao doi thong tin va tuong tac
+giua con nguoi voi he thong
+- user interface: gioi han cac chuc nang do he thong cung cap
+de thuc hien viec trao doi voi he thong do.
+- main components of UI:
+ + input: devices (ban phim, chuot, ...), thong tin (chuyen dong ngon tay, 
+giong noi, ...)
+ + output: devices (man hinh...), thong tin
+
+- cac loai UI: Text, Graphic, Natural, Organic
+
+- Cong thai hoc: nghien cuu vat chat, tinh than con nguoi nham ap dung
+xay dung giao dien phuc vu con nguoi phu hop voi moi truong de an toan, 
+thoai mai, hieu qua.
+
+- Van de can quan tam khi thiet ke cong thai hoc:
++ than thien voi nguoi dung
++ nhat quan
++ giam thieu ngac nhien
++ co che phuc hoi
++ huong dan nguoi dung: cung cap phan hoi co y nghia khi xay ra loi
++ da dang nguoi dung
+	
+b7. Design: principles and process
+- nguyen li Norman: 6
+ + Truc quan
+ + phan hoi: he thong dang lam gi
+ + rang buoc: tai sao user khong the lam viec gi do
+ + anh xa: user dang o dau, tiep theo se phai lam gi (cach bo tri cac phim )
+ + nhat quan: cai user sap lam co giong cai ho da lam hay khong
+ + affordance: lam the nao de user su dung he thong
+
+- nguyen tac cua Shneiderman:
+dau tien can phan loai user nhu nguoi moi hay nguoi chuyen gia.
+8 quy tac:
+ + nhat quan
+ + cung cap phim tat
+ + feedback
+ + tinh dong: vd thanh trang thai download
+ + xu li loi: 
+ + cho phep huy bo cac hanh dong da thuc hien
+ + ho tro user kiem soat he thong
+ + giam tai bo nho ngan han
+
+- quy trinh thiet ke:
+ + xac dinh yeu cau
+ + thiet ke
+ + xay dung interactive version
+ + danh gia
+
+
+b8. User requirements
+- user needs: chuc nang, tien dung, hai long
+- phan tich yeu cau user gom 2 buoc:
+ + thu thap yeu cau
+ + thiet lap yeu cau: lam ro yc, xac dinh yc con thieu, nhap nhang
+
+- ki thuat thu thap yeu cau: cau hoi, phong van, quan sat, hoi thao, 
+nghien cuu tai lieu 
+
+- OSTA: is a user model.
+
+b9. Task analysis
+- Phan tich nhiem vu: la xac dinh hanh dong the chat hoac nhan thuc cua nguoi dung 
+nham thuc hien mot muc tieu biet truoc. 
+- Phan tich nhiem vu (dn): phan tich cach nguoi dung thuc hien cac 
+nhiem vu de dat duoc muc dich cua ho.
+- GOMS: mo hinh phan tich dua tren nhan thuc bao gom ca phan tich vat li va  
+suy nghi can thuc hien de hoan thanh muc dich.
+- HTA: mo hinh phan tich dua tren hanh dong cho phep phan tach nhiem vu o muc cao thanh cac 
+nhiem vu o muc con, thao tac hoac hanh dong.
+- mo hinh nhan thuc: tap trung vao qua trinh nhan thuc lien quan den cac hanh dong
+- mo hinh hanh dong: tap trung vao cac hanh vi
+
+9.1 Overview
+- Phan tich nhiem vu bao gom:
+  + Cac hanh dong nguoi dung
+  + Doi tuong bi tac dong boi user 
+  + Tri thuc yeu cau de thuc hien duoc nhiem vu.
+
+- Dau ra cua phan tich nhiem vu:
+  + Dac ta chi tiet cuar vat li, nhan thuc, suy nghi lien quan den moi nhiem vu
+  + Thoi gian thuc hien moi nhiem vu. cac bien the cua nhiem vu
+  + tan xuat thuc hien nhiem vu
+  + thu tu thuc hien cac nhiem vu
+  + phan cong nhiem vu
+  + do phuc tap cua task
+  + dieu kien moi truong thuc thi 
+  + rang buoc du lieu, thong tin giua cac thanh phan thuc thi task
+  + Cac cong cu dung de thuc thi task
+  + Ki nang, giao duc, dao tao user
+
+- Ket qua can dat cua phan tich task:
+ hieu duoc chuc nang nghiep vu cua he tuong tac.
+  + dinh nghia quy trinh nghiep vu, phan tich yeu cau user
+  + xac dinh chuc nang co ban cua he thong
+  + mo ta lai cac hoat dong cua user
+  + hinh thanh mo hinh he thong o muc do khai niem
+  + hinh thanh cac chuan thiet ke hoac huong dan thiet ke
+  + xac dinh cac muc dich ve tinh dung duoc
+  + tao cac tai lieu huong dan su dung 
+
+- phan tich nhiem vu duoc ap dung vao 3 nhom cong viec chinh:
+ + viet tai lieu huong dan sd
+ + thu thap yeu cau user, thiet ke giao dien
+ + thiet ke he thong.
+
+- khong nen phan tich nhiem vu qua chi tiet: lam he thong mat linh hoat.
+
+- Cach tiep can phan tich nhiem vu:
+
+
+ + Task decomposition (phan ra nhiem vu):
+	+ HTA: textual, diagram. 'Capture.PNG', 'Annotation 2019-05-18 233220.png'
+	+ Langustic model:  gramma, syntax, terminal/nonterminal action, BNF 'Annotation 2019-05-18 230944.png'
+ + Knowledge based:
+	+ GOMS (goal operation method and selection) voi 2 bien the sau:
+		+ KLM (Keystroke - Level model): vi du tinh toan thoi gian thuc hien cac thao tac co ban.
+		+ CMN
+ + Dua tren quan he cac thuc the
+ + phan tich tong quat: model TAG, BNF. vd BNF 'Annotation 2019-05-18 230944.png'
+
+
+- GOMS: cac tri thuc nguoi dung can, nhung gi nguoi dung can hoc
+ + goals
+ + operators: vd click, type
+ + methods: xau chuoi thu tu thuc hien cac sub-goal va operators de 
+hoan thanh mot goal
+ + selection rules: cach lua chon method
+
+- KLM GOMS: du doan thoi gian user thuc hien mot cong viec
+phan tich dua tren cac thao tac vat li nhu thao tac voi chuot, ...
+'Annotation 2019-05-18 230508.png'
+
+
+
+b10. User Centered Design
+10.1.1 UCD as an activity
+- Xac dinh:
+ + Kha nang user, nhu cau can thiet thuc su
+ + de dung, tien dung
+ + hoan canh thuc hien tuong tac
+ + muc tieu
+ + nhiem vu
+ 
+10.1.2 UCD as a process
+- phan tich va luong truoc cach user su dung giao dien
+- kiem tra danh gia cac gia dinh tren bang cac test thuc te
+-> can chu trong nhu cau, mong muon, han che cua user tai moi thoi diem trang thai
+
+10.1.3 chuan ISO 13407 cho UCD 
+Nguyen tac:
+- can su tham gia tich cuc cua user
+- phan dinh chuc nang hop li giua nguoi dung va he thong
+- cac giai phap thiet ke lap
+- doi thiet ke am hieu nhieu linh vuc
+
+Hanh dong:
+- hieu va xac dinh boi canh su dung
+- xac dinh yeu cau nguoi dung va to chuc
+- tao cac giai phap thiet ke san pham (prototype)
+- tham dinh thiet ke
+(lap lai cac buoc)
+
+Tai sao can UCD:
+- cai thien tinh dung duoc va huu dung cua san pham
+- tim kiem cau tra loi ve user va cac task, goal cua user 
+de tu do giup phat trien va design.
+
+10.1.4 Cac phuong phap UCD
+
+10.2 Prototyping
+- Prototyping:
+    + Why? : 1. get feedback early
+	     2. experiment with alternatives: select best one (thu nghiem nhanh)
+	     3. experiment with alternatives: debug, ... (de thay doi)
+    + do tin cay: interface, interaction
+	- low: tap trung vao interface (khong co interaction)
+	- hight: giong voi ban finish (co ca tuong tac va giao dien)
+10.2.3
+- Thiet ke do tin cay thap: Sketch (phac thao), Storyboarding (kich ban)
+(dung but, giay)
+- Thiet ke do tin cay cao (hi-fi prototyping): 
+computer-based simulation, wizard of oz, slide shows and video prototyping
++ computer-based simulation : 
+  ' vertical prototypes
+  ' horizontal prototypes
+  ' scenario
++ wizard of oz : vd ung dung nhan dien giong noi

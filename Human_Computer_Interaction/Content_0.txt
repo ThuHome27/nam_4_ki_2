@@ -1,0 +1,57 @@
+﻿1. Introduction
+- He tuong tac: he thong nhan dau vao tu user va co the cung cap 
+thong tin nhu dau ra cho user.
+- Dinh nghia HCI:
+ + Baecker Buxton: HCI bao gom tap process, action, dialogues 
+ma user su dung de tuong tac voi may tinh nham thuc hien mot task cu the.
+ + ACM: thiet ke, danh gia, cai dat cac he tinh toan tuong tac 
+cho con nguoi su dung va nghien cuu cac van de xung quanh no.
+
+- HCI maps: User and Context, Human, Computer, Development process
+- Development process:
+ + Waterfall model: Initiation -> Phan tich -> Thiet ke -> Cai dat
+ + Star model: co the bat dau tu bat ki buoc nao, tao ra mau thu nhanh
+
+- Development process can dam bao:
+ + dau vao dung, dau ra dung
+ + dau vao sai, cho phep nhap lai
+ + de dung, than thien
+
+- Tac dung cua HCI:
+ + Khoa hoc may tinh, AI, tam li xa hoi, khoa hoc nhan thuc, thiet ke do hoa, 
+cong thai hoc, xa hoi hoc.
+
+- Tinh dung duoc:
+ + bao gom: de hoc, de su dung, trai nghiem tot
+ + phu thuoc thiet ke, cai dat he tuong tac
+ + danh gia tren: nang suat, hieu qua, su thoa man.
+
+2. Xu li thong tin
+- De xay dung thanh cong he tuong tac can co thong tin ve:
+ + User: kha nang vat ly va tam ly
+ + Task: 
+ + Moi truong
+
+- Cac kenh tiep nhan cua con nguoi: thi giac, thinh giac, xuc giac, van dong
+	
+- Gestalt principle: 
+ + similarty (tuong tu)
+ + Continuation (lien tuc)
+ + Proximity (gan nhau): dua tren khoang cach
+ + closure (dong)
+
+- Loi: 
+ + So suat: nghi dung nhung lam sai.
+  nguyen nhan: mo ta hanh dong, boi canh khong dung, khong day du
+
+ + Sai xot: nghi sai va lam nhu suy nghi
+
+4. Interaction paradigm
+
+- batch processing
+- time sharing
+- networking
+- graphical displays
+- microprocessor
+- www
+- ubiquitous computing

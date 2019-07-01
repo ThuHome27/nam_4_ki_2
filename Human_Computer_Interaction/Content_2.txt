@@ -1,0 +1,68 @@
+﻿11. Testing and evaluation
+- Evaluation paradigms: cac khai niem va phuong phap di kem 
+nham huong dan mot cach tuong minh hoac ngam dinh danh gia
+- Formative evaluation: danh gia thiet ke.
+- Post-summative evaluation: danh gia mau thu.
+- Summative evalutation: danh gia du an (khi hoan thanh phat trien)
+- User testing: user thuc hien task tren he thong. nguoi danh gia
+quan sat va dua ra xem he thong ho tro user nhu the nao.
+
+
+- tien loi: user muon thuc hien mot nhiem vu, he thong cung 
+cap cac chuc nang de thuc hien nhiem vu do.
+- kiem thu: kiem tra cac chuc nang cua he thong, phat hien va
+fix bugs
+- danh gia tinh dung duoc: user co dat duoc muc tieu cua ho khong,
+tieu chi: hieu qua, hieu suat, an toan, hai long.
+
+11.2 Evaluation paradigm
+- Quick and Dirty
+ Nguoi thiet ke va ng danh gia trao doi voi user hoac co van de
+thu thap thong tin ve thiet ke, cai tien.
+- Usability testing: nguoi danh gia quan sat user thuc hien cac task
+, giai thich vi sao user lam nhu vay, thuc hien lay y kien user bang
+phong van hoi dap
+- field studies: nguoi danh gia den tan noi lam viec cua user de quan sat
+- predictive: thuc hien tai noi phat trien he thong, chuyen gia se 
+du doan cac van de
+Annotation 2019-05-23 075826.png
+Annotation 2019-05-23 080003.png
+
+11.3 Evaluation methods
+1.phat bieu suy nghi
+2.cung kham pha: 2 ng cung lam
+3.coaching: ng kiem thu kem cap user, tra loi moi cau hoi cua user
+4.shadowing: chuyen gia ngoi canh user, giai thich hanh dong cua user
+5.teaching: de 1 user dung he thong sau do yc user nay huong dan
+su dung cho user khac
+6.do hieu nang: thu thap du lieu khi user thuc hien nhiem vu
+7.hoi va tra loi:
+8.remote: user va tester cach biet khong gian va thoi gian
+9.hồi tưởng: tester va user xem lai cung nhau, tester hoi chuyen gi dang dien ra.
+
+- User testing
+danh gia phuong phap dua tren:
++ thoi gian thuc hien task
++ do chinh xac
++ ghi nho
++ cam xuc user
+
+- Test plan:
++Mục đích của thử nghiệm 
++ Các vấn đề thử nghiệm:
++ Người tham gia
++ Phương pháp và kỹ thuật đánh giá
++ Danh sách công việc cần thực hiện
++ Môi trường thử nghiệm
++ Vai trò người thử nghiệm
++ Các biện pháp đánh giá cần thực hiện: 
+Đối với hiệu năng của ứng dụng đánh giá định lượng theo thời gian.
+Đối với tính dễ sử dụng và thẩm mỹ : đánh giá định tính theo cảm nhận người dùng
++ noi dung cua bao cao, va cach trinh bay
+
+
+12. Web interface
+- noi dung web: tat ca nhung gi co trong trang web
+
+
+ 
